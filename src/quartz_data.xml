@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<job-scheduling-data
+    xmlns="http://www.quartz-scheduler.org/xml/JobSchedulingData"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.quartz-scheduler.org/xml/JobSchedulingData http://www.quartz-scheduler.org/xml/job_scheduling_data_2_0.xsd"
+    version="2.2">
+
+    <schedule>
+        <job>
+            <name>QueryStarterJob</name>
+            <job-class>main.QueryStarter</job-class>
+        </job>
+        <trigger>
+            <cron>
+                <name>QueryStarterJob</name>
+                <job-name>QueryStarterJob</job-name>
+                <cron-expression>0 0/1 * 1/1 * ? *</cron-expression>
+            </cron>
+        </trigger>
+    </schedule>
+    
+<!--
+	<schedule>
+		<job>
+			<name>TestJob</name>
+			<job-class>main.TestJob</job-class>
+		</job>
+		<trigger>
+			<cron>
+				<name>TestJobTrigger</name>
+				<job-name>TestJob</job-name>
+				<cron-expression>0 0/1 * 1/1 * ? *</cron-expression>
+			</cron>
+		</trigger>
+	</schedule>
+-->
+</job-scheduling-data>

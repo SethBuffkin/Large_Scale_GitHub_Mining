@@ -1,0 +1,9 @@
+Mar 20 23:56:12 JavaBridge INFO : VM                  : 1.8.0_121@http://java.oracle.com/
+Mar 20 23:56:12 JavaBridge INFO : JavaBridge version             : 7.0.2    
+Mar 20 23:56:12 JavaBridge INFO : logFile             : JavaBridge.log
+Mar 20 23:56:12 JavaBridge INFO : default logLevel    : 3
+Mar 20 23:56:12 JavaBridge INFO : socket              : HTTP_LOCAL:8081
+Mar 20 23:56:12 JavaBridge INFO : java.ext.dirs       : /Users/Seth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Mar 20 23:56:12 JavaBridge INFO : php.java.bridge.base: /Users/Seth
+Mar 20 23:56:12 JavaBridge INFO : thread pool size    : 20
+Mar 20 23:56:12 JavaBridge INFO : JavaBridgeRunner started on port INET_LOCAL:8081
